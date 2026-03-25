@@ -16,4 +16,4 @@ with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
     print(f"Servidor activo en: http://localhost:{PORT}")
     print("Presiona Ctrl+C para detenerlo.")
     # Mantiene el servidor corriendo
-    httpd.serve_forever()
+    httpd.serve_forever() 
